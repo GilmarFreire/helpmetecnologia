@@ -1,0 +1,87 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    background: #006A8A;
+    font: 8px "Lucida Grande", "Lucida Sans Unicode" Arial, sans-serif;
+}
+#container {
+    width: 100%;
+    margin: 10px auto;   
+}         
+
+a:link, a:visited, a:active {
+    color: #eeff04;
+    text-decoration: none
+}
+a:hover{
+    color: #0f1b8d;
+    border: 4px solid rgb(0, 153, 255);    
+    background-color:#eeff04;
+}
+
+
+/*-------------------------------------------INICIO DO HEADER */  
+
+header {
+    
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    background-color: #1D3E5D;
+}
+#logo a img {
+    width: 200px;
+    height: 60px;
+    margin:20px;
+    display: block;
+    float: left;
+}
+/*-------------------------------------------INICIO DO NAV */ 
+nav ul {
+    
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    position: relative;    
+    height: auto;
+    
+}
+nav ul li{
+    display: block;
+    float: left;    
+    padding: 10px;    
+}
+nav ul li a{
+    color: yellow;   
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.button {
+    background-color: #0f1b8d;
+    border: 4px solid red;
+    display: block;
+    float: right;
+    margin: 25px;
+    padding: 5px;   
+}
+/*----------------------------------------------FIM DO NAV */ 
+
+/*--------------------------------------------FIM DO HEADER*/
+#banner img {
+    
+    padding-top: 10px;
+    width: 90%;
+    margin-left: 75px;
+    
+    height: 300px;                   
+}
+
+      
+      
