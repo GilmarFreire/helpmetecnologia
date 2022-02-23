@@ -17,3 +17,5 @@ git commit -m "add new comand"
 
 //PUSH EM INGLES EMPURRAR ENVIAR TUDO NO DIRETORIO LOCAL PATRA O GITHUB
 git push
+
+// MUDAR A BR
