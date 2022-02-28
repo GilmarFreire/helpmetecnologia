@@ -5,12 +5,21 @@
 }
 body{
     
-    background: #006A8A;
+    background: gray;
     font: 8px "Lucida Grande", "Lucida Sans Unicode" Arial, sans-serif;
 }
+.class {
+    border: 1px solid yellow;
+    width: 98%;
+    margin-left: 10px;
+    height: auto;
+}
+
+
 #container {
     width: 100%;
-    margin: 10px auto;   
+    margin: 10px auto; 
+     
 }         
 
 a:link, a:visited, a:active {
@@ -28,10 +37,13 @@ a:hover{
 
 header {
     
-    width: 90%;
+    
     margin: auto;
     height: 100px;
     background-color: #1D3E5D;
+    margin-bottom: 0px;
+    border: 3px solid yellow;    
+   
 }
 #logo a img {
     width: 200px;
@@ -74,14 +86,87 @@ nav ul li a{
 /*----------------------------------------------FIM DO NAV */ 
 
 /*--------------------------------------------FIM DO HEADER*/
-#banner img {
-    
-    padding-top: 10px;
-    width: 90%;
-    margin-left: 75px;
-    
-    height: 300px;                   
+
+
+/*--------------------------------------INICIO DO CARROSEL */ 
+
+.carrosel {  
+
+    margin-top: 0px;
+    width: 98%;
+    margin-left: 10px;
+    height: 500px;
+    background: #1D3E5D;
+    border: 1px solid yellow;
+
+}
+.photos {  
+  width: 600px ;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 350px;
+  margin-right: 450px;
+  margin-top: 100px;
+  border: 3px solid greenyellow;    
+     
 }
 
-      
-      
+.carrosel .photos img{
+  width: 600px;
+  border: 3px solid red;
+  height: auto;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {  
+
+   0% {margin-right: -0px;}
+  10% {margin-right: -0px;}
+  20% {margin-right: -600px;}
+  30% {margin-right: -600px;}
+  40% {margin-right: -1200px;}
+  50% {margin-right: -1200px;}
+  60% {margin-right: -1800px;}
+  70% {margin-right: -1800px;}
+  80% {margin-right: -2400px;}
+  90% {margin-right: -24000px;}
+  100% {margin-right:-3000px;}
+  100% {margin-right: -3000px;}
+}
+
+/*------------------------------------------FIM DO CARROSEL */ 
+
+/*-------------------------------------------INICIO DO MAIN */ 
+
+
+
+.principal h2 {
+    border: 1px solid red;
+    text-align: center;
+    margin: 20px 40px;
+    padding: 10px;
+}
+   .principal p{
+       margin: 20px 40px;
+       text-align: justify;
+       
+   }
+   
+   .principal{
+        border: 1px solid red; 
+        
+   }
+
+   .principal h3 {
+    border: 1px solid red;
+    text-align: center;
+    margin: 20px 40px;
+    padding: 10px;
+    
+   
+
+}
+
+/*----------------------------------------------FIM DO MAIN */ 
